@@ -26,7 +26,10 @@ https://chat.whatsapp.com/I1MOhBiNkXQCAL5fm9RKei
 Please write to nicitacademy@gmail.com/ or WhatsApp me @7010080468
 
 
-
+*******************************************************************************
+For Training contact: 
++91 7010080468 (WhatsApp call)
+********************************************************************************
 
 
 
