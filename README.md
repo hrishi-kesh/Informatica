@@ -2,6 +2,11 @@ Want to Join Informatica WhatsApp group? Click on the below link
 
 https://chat.whatsapp.com/I1MOhBiNkXQCAL5fm9RKei
 
+Kindly note, please do not send any spam messages or promotional messages. 
+You will be removed if you violate policy. 
+
+==================================================================================================================================================================
+
 
 🌕 If you need self-paced complete Informatica ETL developer training batch recorded sessions - 35 days session(Paid) with all notes, Sample Resumes, interview questions and answers, Day wise exercise and 100 case studies questions (Paid), please write to nicitacademy@gmail.com/ or WhatsApp me @7010080468
 
