@@ -1,6 +1,6 @@
 Want to Join Informatica WhatsApp group? Click on the below link
 
-https://chat.whatsapp.com/I1MOhBiNkXQCAL5fm9RKei
+https://chat.whatsapp.com/IjUAX0alII4EZHSYpKbMbL
 
 Kindly note, please do not send any spam messages or promotional messages. 
 You will be removed if you violate policy. 
