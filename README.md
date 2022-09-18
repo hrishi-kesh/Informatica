@@ -1,6 +1,6 @@
 Want to Join Informatica WhatsApp group? Click on the below link
 
-https://chat.whatsapp.com/IjUAX0alII4EZHSYpKbMbL
+https://chat.whatsapp.com/BhkEf1rCsrx7nDroaBstry
 
 Kindly note, please do not send any spam messages or promotional messages. 
 You will be removed if you violate policy. 
@@ -28,13 +28,7 @@ You will be removed if you violate policy.
 
 📌Life time access - no need to download
 
-Please write to nicitacademy@gmail.com/ or WhatsApp me @7010080468
-
-
-*******************************************************************************
-For Training contact: 
-+91 7010080468 (WhatsApp call)
-********************************************************************************
+Please write to nicitacademy@gmail.com
 
 
 
