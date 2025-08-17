@@ -70,7 +70,7 @@ DX_Notification Transformation:- Used for triggering events and notifications ba
 **Note**:- But in this column name and data type need to mention manually
 - In target properties header option by default no header but we can other option as well
 
-4. ## Generate target file with
+4. ## Generate target file with timestamp
 - Taking above as reference Goto *Target Designer*
 - On top add Filename column to this table which is right most don't add new column directly
 - At last row one non-editable 255 precesion column with Filename will be created
@@ -147,12 +147,12 @@ DX_Notification Transformation:- Used for triggering events and notifications ba
 11. ## Rank Transformation [Active and Connected]
 - It has 4 ports:- i/p, o/p, rank(R) and group by port
 - Properties:- Rank type:- Top N, Bottom N, Percent, Rank by port:- select the port on which we want to rank the data
-- **We cam't do dense rank directly instead we can add expression transformation to make dense rank**
+- **We can't do dense rank directly instead we can add expression transformation to make dense rank**
 - Case sensitive String comparison:- If we select this option then it will treat A and a as different values and it will give us different rank for A and a.
 - You may be leave the *rank index* port empty if you don't want to link it with any other transformation.
 
 12. ## Sequence Generator Transformation [Passive and Connected]
-- Seqquence generator has only 2 rows nextval and currval
+- Sequence generator has only 2 rows nextval and currval
 - In properties we have:- Start value, Increment by, end value, Current value, Cache size, Cycle- enable/disable, No. of cached values- It generates next n values and store in cache, Reset
 - If cycle and reset both are enabled then it will reset the sequence to current value and start generating the sequence from current value after again running the workflow.
 - If cycle is enabled then it will generate the sequence from current value after reaching end value.
@@ -170,11 +170,11 @@ DX_Notification Transformation:- Used for triggering events and notifications ba
 - It is exactly opposite of router transformation.
 - It is used to combine the data from multiple input groups into a single output group.
 - Same structure table and heterogeneous sources.
-- **Union is act like a union all in SQL and to remove duplicates we need to use sorter transformation(distinct option) after union transformation.**
+- **Union is act like a union all in Informatica and to remove duplicates we need to use sorter transformation(distinct option) after union transformation.**
 - Column names might be different but data type should be same.
 - **Union is act like active instead of without changing the no. of input output records because it change the rowid and row number**
 
-14. ## Lookup Transformation [Actice and Connected]
+14. ## Lookup Transformation [Active and Connected]
 - Lookup some value for the pipeline and it is used to look up a value from a reference table or file based on a specified condition.
 - It has 4 ports:- i/p, o/p, lookup and return port
 - If table is there in the source side then we can go for **joiner** transformation.
@@ -183,7 +183,7 @@ DX_Notification Transformation:- Used for triggering events and notifications ba
 - ![LKP Ports](image-5.png)
 - ![LKP Condition](image-4.png)
 
-15. ## Lookup Transformation [Actice and UnConnected]
+15. ## Lookup Transformation [Active and UnConnected]
 - In unconnected lookup transformation, we can use multiple return ports by using concatenation operator || to return multiple values from the lookup transformation otherwise we need to use multiple lookup transformations to return multiple values.
 - In unconnected lookup transformation, we can use the lookup transformation in the expression transformation or any other transformation by using the LKP function.
 - ![Unconnected LKP](image-6.png)
@@ -209,7 +209,7 @@ DX_Notification Transformation:- Used for triggering events and notifications ba
 - Java transformation provides a simple native interface to define transformation functionality with java programming language. To create encryption or decryption logic we can use java transformation.
 - There are two kinds of ports in java one is input port and another is output port.
 - There is one java code editor we need to goto **On input row** and clear and write the java code to perform the transformation logic.
-- If there is in jar file then we need to goto workflow manager under mapping section goto java transformation and select the jar file in Class Name.
+- If there is any jar file then we need to goto workflow manager under mapping section goto java transformation and select the jar file in Class Name.
 ```java
 String str= MOBILE_NUMBERS;
 String temp[];

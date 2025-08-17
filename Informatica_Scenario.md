@@ -42,9 +42,9 @@
 3. ## Workflow Task in Informatica
 - 1. Session(Non reusable, reusable task) 2. Email (Non reusable, reusable task) 3. Command (Non reusable, reusable task) 4. Event Wait 5. Event Raise 6. Timer 7. Assignment 8. Control 9. Decision 10. Worklet 11. Link Task 12. Scheduler
 - If you create any task under task developer it will be reusable task.
-- In reusable task we can't modify inside mapping under workflow like pre sql, post sql and many more. But we can modify in task developer because since it is reusable if we modify at one place it will modify in all workflow.
+- In reusable task we can't modify inside mapping under workflow like pre sql, post sql and many more. But we can modify in task developer because since it is reusable if we modify at one place it will modify in the all workflows.
 - **If two sessions are connected in series and dependent then we need to *double click on link task* and put "$s_m_Aggregator.Status=succeeded". If we don't make any condition on link task if it fails the next task will auto trigger and succeed.**
-- If we want to create the workflow to be dependent then we need create one file and present to *Event Wait*
+- If we want to create the workflow to be dependent then we need create one file and present it to *Event Wait*
 - ![Workflows dependencies](image-13.png)
 - We can create file here in window machine but in real time project it is in linux. So in the 1st workflow we can add command task at the end of session where we can write command like *echo >C:\Informatica\touch.txt*(in windows) *touch touch.txt*(in linux) to create file.
 - And in the starting of 2nd of workflow we create the event wait and mention the location of file created and select the option *Delete Filewatch File* so that one next day 2nd workflow don't start automatically after watching this file at the location new file has to be there.
